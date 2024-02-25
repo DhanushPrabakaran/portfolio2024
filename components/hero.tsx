@@ -5,6 +5,7 @@ import { HeroParallax } from "@/components/ui/hero-parallax";
 export function HeroParallaxDemo() {
   return <HeroParallax products={products} />;
 }
+
 export const products = [
   {
     title: "Moonbeam",
