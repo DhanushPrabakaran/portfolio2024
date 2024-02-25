@@ -12,6 +12,11 @@ const nextConfig = {
             hostname: 'aceternity.com',
             
           },
+          {
+            protocol: 'https',
+            hostname: 'images.unsplash.com',
+            
+          },
         ],
     }
 };
