@@ -10,6 +10,24 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 
+const words = [
+  {
+    text: "Build",
+  },
+  {
+    text: "awesome",
+  },
+  {
+    text: "apps",
+  },
+  {
+    text: "with",
+  },
+  {
+    text: "Aceternity.",
+    className: "text-blue-500 dark:text-blue-500",
+  },
+];
 export const HeroParallax = ({
   products,
 }: {
@@ -103,10 +121,11 @@ export const HeroParallax = ({
 
 export const Header = () => {
   return (
-    <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0">
-      <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
-        The Ultimate <br /> development studio
+    <div className="max-w-7xl relative mx-auto py-10 md:py-20 px-4 w-full  left-0 top-0">
+      <h1 className="text-2xl md:text-7xl font-bold  bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 bg-clip-text text-transparent">
+        The Ultimate<br/> development studio
       </h1>
+      
       <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
         We build beautiful products with the latest technologies and frameworks.
         We are a team of passionate developers and designers that love to build

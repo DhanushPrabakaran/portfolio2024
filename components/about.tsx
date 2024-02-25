@@ -14,10 +14,10 @@ import {
 export function About() {
   return (
     <div>
-    <h1 className="text-2xl md:text-7xl font-bold dark:text-white text-center">
+    <h1 className="text-2xl p-4  md:text-7xl font-bold dark:text-white text-center">
         About Me
       </h1>
-    <BentoGrid className="max-w-6xl mx-auto">
+    <BentoGrid className="lg:max-w-6xl mx-auto">
         
       {items.map((item, i) => (
         <BentoGridItem
